@@ -3,9 +3,9 @@ import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Image from "next/image";
 import deved from "../public/avatar2.png";
-import design from '../public/design.png';
-import code from '../public/code.png';
-import consulting from '../public/consulting.png';
+import design from '../public/frontEnd.png';
+import code from '../public/DataBase.png';
+import consulting from '../public/api.png';
 import web1 from '../public/web1.png'
 import web2 from '../public/web2.png'
 import web3 from '../public/web3.png'
