@@ -74,7 +74,7 @@ export default function Home() {
           </div>
         </section>
         <section> 
-          <div>
+          <div className="dark:text-gray-300 mt-8">
             <h3 className="text-3xl py-1">Services i offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               my services
