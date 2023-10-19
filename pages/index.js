@@ -70,7 +70,7 @@ export default function Home() {
             <Image src={deved} layout="fill" objectFit="cover" alt=""/>
           </div>
         </section>
-        <section> 
+        <section className=""> 
           <div className="dark:text-gray-300 mt-8 text-center">
             <h3 className="text-3xl py-1  max-w-xl mx-auto font-mono">Hi! I am David</h3>
             <p className="text-center py-2 leading-8 text-gray-800  md:text-xl max-w-xl mx-auto font-mono dark:text-gray-300">
@@ -82,12 +82,12 @@ export default function Home() {
             and creating practical, efficient solutions that benefit both individuals and businesses.
             </p>
           </div>
-          <div className="lg:flex gap-10">
+          <div className="lg:flex gap-10 justify-center">
             <div className="text-center items-center flex flex-col shadow-lg p-10 rounded-xl my-10 bg-gradient-to-b from-teal-500 dark:text-gray-300 ">
               <Image src={design} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Front-End</h3>
-              <h4 className="py-4 text-teal-600">Desing tools i use</h4>
-              <ul>
+              <h3 className="text-lg font-medium pt-8 pb-2  max-w-xl mx-auto font-mono">Front-End</h3>
+              <h4 className="py-4 text-teal-600 max-w-xl mx-auto font-mono">Desing tools i use</h4>
+              <ul className="md:text-xl max-w-xl mx-auto font-mono">
                 <li>CSS</li>
                 <li>Tailwin</li>
                 <li>Boostrap</li>
@@ -95,11 +95,11 @@ export default function Home() {
                 <li>Slim</li>
               </ul>
             </div>
-            <div className="text-center items-center flex flex-col shadow-lg p-10 rounded-xl my-10 bg-gradient-to-b from-teal-500">
+            <div className="text-center items-center flex flex-col shadow-lg p-10 rounded-xl my-10 bg-gradient-to-b from-teal-500 dark:text-gray-300">
               <Image src={consulting} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Back-End</h3>
-              <h4 className="py-4 text-teal-600">Desing tools i use</h4>
-              <ul>
+              <h3 className="text-lg font-medium pt-8 pb-2 max-w-xl mx-auto font-mono">Back-End</h3>
+              <h4 className="py-4 text-teal-600 max-w-xl mx-auto font-mono">Desing tools i use</h4>
+              <ul className="md:text-xl max-w-xl mx-auto font-mono">
                 <li>CSS</li>
                 <li>Tailwin</li>
                 <li>Boostrap</li>
@@ -107,11 +107,11 @@ export default function Home() {
                 <li>Slim</li>
               </ul>
             </div>
-            <div className="text-center items-center flex flex-col shadow-lg p-10 rounded-xl my-10 bg-gradient-to-b from-teal-500" >
+            <div className="text-center items-center flex flex-col shadow-lg p-10 rounded-xl my-10 bg-gradient-to-b  from-teal-500 dark:text-gray-300">
               <Image src={code} width={100} height={100} alt=""/>
-              <h3 className="text-lg font-medium pt-8 pb-2">Data Base</h3>
-              <h4 className="py-4 text-teal-600">Desing tools i use</h4>
-              <ul>
+              <h3 className="text-lg font-medium pt-8 pb-2 max-w-xl mx-auto font-mono">Data Base</h3>
+              <h4 className="py-4 text-teal-600 max-w-xl mx-auto font-mono">Desing tools i use</h4>
+              <ul className="md:text-xl max-w-xl mx-auto font-mono">
                 <li>CSS</li>
                 <li>Tailwin</li>
                 <li>Boostrap</li>
@@ -120,19 +120,18 @@ export default function Home() {
               </ul> 
             </div>
           </div>
-          
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+          <div className="text-center dark:text-gray-300 max-w-xl mx-auto font-mono">
+            <h3 className="text-3xl py-1">My Recent Porjects</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               my services
               <span className="text-teal-500">agencies</span>
               consulted for <span className="text-teal-500">startups</span>
               and collaborated wih talanted people to create digital for both
               business and consumer use.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               i am systems enginner and fullStack Develop with tech skills
               in javaScript, ReactJs, NodeJs, SQL, HTML and CSS
             </p>
